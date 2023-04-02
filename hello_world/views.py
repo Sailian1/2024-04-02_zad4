@@ -3,9 +3,9 @@ from hello_world.formater import get_formatted
 from hello_world.formater import SUPPORTED, PLAIN
 from flask import request
 
-moje_imie = "Natalia"
-msg = "Hello World!"
+moje_imie = "Mateusz"
 
+msg = "Hello World!"
 @app.route('/')
 def index():
     output = request.args.get('output')
